@@ -6,7 +6,7 @@
 
 @media (max-width: 480px) {
   body{
-    background-color: gold;
+    background-color: azure;
   }
 
   .flex{
@@ -27,6 +27,9 @@
     width: 100%;
   }
 
-  
+  .search-bar{
+    width: 70vw;
+    height: 0.8vh;
+  }
 
 }

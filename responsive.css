@@ -1,0 +1,32 @@
+@media (max-width: 768px) {
+  body{
+    background-color: red;
+  }
+}
+
+@media (max-width: 480px) {
+  body{
+    background-color: gold;
+  }
+
+  .flex{
+    flex-flow: wrap;
+  }
+
+  .flex img{
+    width: 50%;
+    height: auto;
+  }
+
+  .left{
+    width: 100%;
+    justify-content: center;
+  }
+
+  .right{
+    width: 100%;
+  }
+
+  
+
+}

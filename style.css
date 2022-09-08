@@ -49,11 +49,14 @@ nav ul li{
     justify-content: left;
 }
 
-button{
-    width: 65px;
-    height: 29px;
+.button{
+    width: 15%;
+    height: 42%;
+    text-align: center;
+    border: 2px solid white;
     cursor: pointer;
 }
+
 .search-bar{
     background-color: ghostwhite;
     width: 350px;

@@ -1,12 +1,6 @@
-@media (max-width: 768px) {
-  body{
-    background-color: red;
-  }
-}
-
 @media (max-width: 480px) {
   body{
-    background-color: azure;
+    /* background-color: azure; */
   }
 
   .flex{
@@ -14,8 +8,9 @@
   }
 
   .flex img{
-    width: 50%;
+    width: 32%;
     height: auto;
+    margin: 1px auto;
   }
 
   .left{
@@ -29,7 +24,17 @@
 
   .search-bar{
     width: 70vw;
-    height: 0.8vh;
+    height: 2.5vh;
   }
 
+ nav ul li a{
+  padding: 0 6px;
+  font-size: 13px;
+ }
+
+ .slider{
+  display: flex;
+  width: 100%;
+  height: 20vh;
+ }
 }
